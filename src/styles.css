@@ -118,6 +118,47 @@ a:hover {
   padding: 24px 16px;
   text-align: center;
 }
+/* add an amazing animation to the social icons */
+.container .box:hover .socialIcon {
+  animation: bounce 0.5s;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.container .box img {
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+}
+
+.container .box h3 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.container .box p {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.container .box a {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.container .box a:hover {
+  color: #4e567e;
+}
 
 img.socialIcon {
   height: 30px;
