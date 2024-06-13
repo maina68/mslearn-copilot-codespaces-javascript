@@ -119,36 +119,21 @@ a:hover {
   text-align: center;
 }
 /* add an amazing animation to the social icons */
-.container .box:hover .socialIcon {
+.img.socialIcon:hover {
   animation: bounce 0.5s;
+  animation-iteration-count: infinite;
 }
 
 @keyframes bounce {
   0% {
-    transform: translateY(0);
+    transform: scale(1);
   }
   50% {
-    transform: translateY(-10px);
+    transform: scale(1.2);
   }
   100% {
-    transform: translateY(0);
+    transform: scale(1);
   }
-}
-
-.container .box img {
-  border-radius: 50%;
-  height: 80px;
-  width: 80px;
-}
-
-.container .box h3 {
-  font-size: 1.5rem;
-  margin: 10px 0;
-}
-
-.container .box p {
-  font-size: 1rem;
-  margin: 10px 0;
 }
 
 .container .box a {

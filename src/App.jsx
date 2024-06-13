@@ -28,10 +28,10 @@ const siteProps = {
   title: "Software Engineer",
   email: "mwangisgeorge@gmail.com",
   gitHub: "maina68",
-  instagram: "https://www.instagram.com/gich_dray/",
-  linkedIn: "https://www.linkedin.com/in/george-maina-586b1b235/",
+  instagram: "gich_dray",
+  linkedIn: "george-maina-586b1b235",
   medium: "",
-  twitter: "https://x.com/M88097791George",
+  twitter: "M88097791George",
   youTube: "",
 };
 
